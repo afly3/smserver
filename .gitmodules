@@ -1,0 +1,6 @@
+[submodule "thirdparty/srs-librtmp"]
+	path = thirdparty/srs-librtmp
+	url = https://github.com/ossrs/srs-librtmp.git
+[submodule "thirdparty/brpc"]
+	path = thirdparty/brpc
+	url = https://github.com/apache/incubator-brpc.git
