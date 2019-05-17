@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option cc_generic_services = true;
+
+service HttpService {
+    // ping
+    rpc Ping (PingRequest) returns (PingResponse) {
+    }
+
+    // 查询版本
+    rpc Version (VersionRequest) returns (VersionResponse) {
+    }
+}
+
+
+message PingRequest {
+}
+
+message PingResponse {
+}
+
+// 版本请求
+message VersionRequest {
+}
+
+// 版本返回
+message VersionResponse {
+    // 各模块版本集合
+    map<string, string> versions = 1001;
+}
+

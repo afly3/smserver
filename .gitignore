@@ -1,44 +1,38 @@
-src/a.out
-*.o
-*.lo
-*.la
-*.so
-*.idea/
-*debug/
-*build/
-*_pb2.py
-*pb.h
-*pb.cc
-cmakelist_yadda.txt
+thirdparty/mspout-ffmpeg/*
+thirdparty/mspout-netposa/*
+thirdparty/mspout-pfs/*
+thirdparty/mspout-infinova/*
+thirdparty/mspout-tiandy/*
+thirdparty/brpc
+thirdparty/objs
+thirdparty/output/*
 
-thirdpart/mspout-ffmpeg/*
-thirdpart/mspout-netposa/*
-thirdpart/mspout-pfs/*
-thirdpart/mspout-infinova/*
-thirdpart/mspout-tiandy/*
-thirdpart/brpc
-thirdpart/dmi
-thirdpart/objs
-
-third_party/output/
 res/ex-libs/
 res/*.ini
 res/script/
 docker-release/
 res/numa_config
 
+
+*pb.h
+*pb.cc
+*_pb2.py
+
 .idea
-cmake-build-debug
+*.idea/
+
 # Compiled Object files
+*debug/
+*build/
+cmake-build-debug
+*.la
+*.so
 *.slo
 *.lo
 *.o
 *.obj
 *.d
 
-
-conanbuildinfo.cmake
-conanbuildinfo.txt
 repo/
 
 # Precompiled Headers
